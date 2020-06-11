@@ -14,7 +14,7 @@ My research interests focus on data analytics systems and cloud computing, inclu
 
 ### Publications
 
-1. <ins>Minchen Yu</ins>, Yinghao Yu, Yunchuan Zheng, Baichen Yang, and Wei Wang, "[RepBun: Load-Balanced, Shufle-Free Cluster Caching for Structured Data](http://www.cse.ust.hk/~weiwa/papers/repbun-infocom20.pdf)," to appear in ***IEEE INFOCOM'20***, Virtual Conference, July, 2020.
+1. <ins>Minchen Yu</ins>, Yinghao Yu, Yunchuan Zheng, Baichen Yang, and Wei Wang, "[RepBun: Load-Balanced, Shuffle-Free Cluster Caching for Structured Data](http://www.cse.ust.hk/~weiwa/papers/repbun-infocom20.pdf)," to appear in ***IEEE INFOCOM'20***, Virtual Conference, July, 2020.
 
 1. Chengliang Zhang, <ins>Minchen Yu</ins>, Wei Wang, and Feng Yan, "[MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](http://www.cse.ust.hk/~weiwa/papers/mark-atc19.pdf)," in the Proceedings of USENIX Annual Technical Conference (***ATC'19***), Renton, WA, July, 2019.
 
