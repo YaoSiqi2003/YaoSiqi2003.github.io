@@ -3,5 +3,6 @@ _site
 .DS_Store
 .ruby-version
 node_modules
+.jekyll-cache
 
 *.pptx
