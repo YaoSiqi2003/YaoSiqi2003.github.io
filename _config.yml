@@ -2,7 +2,7 @@
 #====================================
 name: Minchen Yu
 title: Minchen Yu
-description: PhD Student at HKUST
+description: PhD Candidate at HKUST
 avatar: /images/avatar.jpeg
 
 # Pagination
@@ -17,6 +17,7 @@ footer-links:
   flickr: 
   github: MincYu
   googleplus: # anything in your profile username that comes after plus.google.com/
+  googlescholar: Kz2aAHQAAAAJ
   instagram:
   linkedin: minchen-yu-362454143/
   pinterest:
