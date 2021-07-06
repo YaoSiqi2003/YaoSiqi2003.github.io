@@ -14,6 +14,8 @@ My research interests focus on distributed systems and cloud computing, includin
 
 ### Publications
 
+1. <ins>Minchen Yu</ins>, Zhifeng Jiang, Hok Chun Ng, Wei Wang, Ruichuan Chen, and Bo Li, ''[Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning](http://www.cse.ust.hk/~weiwa/papers/gillis-icdcs21.pdf),'' in the Proceedings of the 41st IEEE International Conference on Distributed Computing Systems (***ICDCS'21***), Virtual Conference, July 2021. [[code](https://github.com/MincYu/gillis-open-source)]
+1. Huangshi Tian, <ins>Minchen Yu</ins>, and Wei Wang, ''[CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](http://www.cse.ust.hk/~weiwa/papers/crystalperf-atc21.pdf),'' in the Proceedings of USENIX Annual Technical Conference (***ATC ’21***), Virtual Conference, July 2021.
 1. <ins>Minchen Yu</ins>, Yinghao Yu, Yunchuan Zheng, Baichen Yang, and Wei Wang, "[RepBun: Load-Balanced, Shuffle-Free Cluster Caching for Structured Data](http://www.cse.ust.hk/~weiwa/papers/repbun-infocom20.pdf)," in the Proceedings of ***IEEE INFOCOM'20***, Virtual Conference, July 2020.
 1. Chengliang Zhang, <ins>Minchen Yu</ins>, Wei Wang, and Feng Yan, "[Enabling Cost-Effective, SLO-Aware Machine Learning Inference Serving on Public Cloud](http://www.cse.ust.hk/~weiwa/papers/MArk-tcc20.pdf)," in IEEE Transactions on Cloud Computing (***TCC***), 2020.
 1. Chengliang Zhang, <ins>Minchen Yu</ins>, Wei Wang, and Feng Yan, "[MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](http://www.cse.ust.hk/~weiwa/papers/mark-atc19.pdf)," in the Proceedings of USENIX Annual Technical Conference (***ATC'19***), Renton, WA, July 2019.
@@ -22,7 +24,6 @@ My research interests focus on distributed systems and cloud computing, includin
 ### Honors and Awards
 
 - SENG Academic Award for Continuing PhD Students (HKUST, 2020)
-- Huawei PhD Fellowship (2018 - present)
 - University Outstanding Graduate (Nanjing University, 2018)
 - National Scholarship (Nanjing University, 2016)
 - People's Scholarship (Nanjing University, 2015 & 2017)
@@ -31,5 +32,6 @@ My research interests focus on distributed systems and cloud computing, includin
 
 *Teaching Assistant at HKUST:*
 
+- COMP 4651 Cloud Computing and Big Data Systems, Spring 2021
 - COMP 3511 Operating System, Spring 2019
 
