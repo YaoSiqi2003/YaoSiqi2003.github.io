@@ -6,7 +6,7 @@ permalink: /
 
 ### About me
 
-I'm currently a 4th-year Ph.D. candidate in [Department of Computer Science and Engineering](https://www.cse.ust.hk) at [Hong Kong University of Science and Technology](http://www.ust.hk), where I'm supervised by Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). Prior to that, I received my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn) in 2018.
+I'm currently a final-year Ph.D. candidate in [Department of Computer Science and Engineering](https://www.cse.ust.hk) at [Hong Kong University of Science and Technology](http://www.ust.hk), where I'm supervised by Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). Prior to that, I received my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn) in 2018.
 
 My research interests cover the board area of distributed systems and cloud computing, with special focus on machine learning systems and serverless computing. 
 
@@ -16,7 +16,7 @@ I'm on the job market. [**Curriculum vitae**](https://mincyu.github.io/archive/C
 
 ### Publications
 
-- <ins>Minchen Yu</ins>, Tingjia Cao, Wei Wang, Ruichuan Chen, "Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing", accepted to appear in the 20th USENIX Symposium on Networked Systems Design and Implementation (***NSDI’23***), Boston, MA, April 2023. [[preprint](https://arxiv.org/abs/2109.13492)]
+- <ins>Minchen Yu</ins>, Tingjia Cao, Wei Wang, Ruichuan Chen, "Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing", accepted to appear in the 20th USENIX Symposium on Networked Systems Design and Implementation (***NSDI’23***), Boston, MA, April 2023. [[technical report](https://arxiv.org/abs/2109.13492)]
 - <ins>Minchen Yu</ins>, Zhifeng Jiang, Hok Chun Ng, Wei Wang, Ruichuan Chen, and Bo Li, ''[Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning](https://mincyu.github.io/papers/gillis-icdcs21.pdf),'' in the Proceedings of the 41st IEEE International Conference on Distributed Computing Systems (***ICDCS'21***), Virtual Conference, July 2021. **(Best Paper Runner Up)**  [[code](https://github.com/MincYu/gillis-open-source)]
 - Huangshi Tian, <ins>Minchen Yu</ins>, and Wei Wang, ''[CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](https://mincyu.github.io/papers/crystalperf-atc21.pdf),'' in the Proceedings of USENIX Annual Technical Conference (***ATC ’21***), Virtual Conference, July 2021.
 - <ins>Minchen Yu</ins>, Yinghao Yu, Yunchuan Zheng, Baichen Yang, and Wei Wang, "[RepBun: Load-Balanced, Shuffle-Free Cluster Caching for Structured Data](https://mincyu.github.io/papers/repbun-infocom20.pdf)," in the Proceedings of ***IEEE INFOCOM'20***, Virtual Conference, July 2020.
