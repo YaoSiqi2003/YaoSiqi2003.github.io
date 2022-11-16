@@ -10,7 +10,7 @@ I'm currently a final-year Ph.D. candidate in [Department of Computer Science an
 
 My research interests cover the board area of distributed systems and cloud computing, with special focus on machine learning systems and serverless computing. 
 
-I'm on the job market. [**Curriculum vitae**](https://mincyu.github.io/archive/CV_Minchen.pdf).
+I'm in the job market. [**Curriculum vitae**](https://mincyu.github.io/archive/CV_Minchen.pdf).
 
 <!-- Here is my CV.  -->
 
