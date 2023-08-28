@@ -24,6 +24,19 @@ My research interests cover the board area of distributed systems and cloud comp
 - Chengliang Zhang, <ins>Minchen Yu</ins>, Wei Wang, and Feng Yan, "[MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](https://mincyu.github.io/papers/mark-atc19.pdf)," in the Proceedings of USENIX Annual Technical Conference (***ATC'19***), Renton, WA, July 2019.
 - Huangshi Tian, <ins>Minchen Yu</ins>, and Wei Wang, "[Continuum: A Platform for Cost-Aware, Low-Latency Continual Learning](https://mincyu.github.io/papers/huangshi-socc18.pdf)," in the Proceedings of ACM Symposium on Cloud Computing (***SoCC'18***), Carlsbad, CA, October 2018.
 
+
+
+### Honors and Awards
+
+- HKUST RedBird Academic Excellence Award, 2023
+- USENIX NSDI Student Travel Grant, 2023
+- IEEE ICDCS Best Paper Runner-Up Award, 2021
+- HKUST SENG Academic Award for Continuing PhD Students, 2020
+- Huawei PhD Fellowship, 2018
+- National Scholarship, 2016
+
+
+
 ### Teaching Experience
 
 *Teaching Assistant at HKUST:*
