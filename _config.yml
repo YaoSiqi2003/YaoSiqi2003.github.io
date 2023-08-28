@@ -2,7 +2,7 @@
 #====================================
 name: Minchen Yu
 title: Minchen Yu
-description: PhD Candidate at HKUST
+description: Ph.D.
 avatar: /images/avatar.jpeg
 
 # Pagination
@@ -12,7 +12,7 @@ paginate: 20
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email: myuaj@cse.ust.hk
+  email: myuaj@connect.ust.hk
   facebook:
   flickr: 
   github: MincYu

@@ -6,11 +6,11 @@ permalink: /
 
 ### About me
 
-I'm currently a final-year Ph.D. candidate in [Department of Computer Science and Engineering](https://www.cse.ust.hk) at [Hong Kong University of Science and Technology](http://www.ust.hk), where I'm supervised by Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). Prior to that, I received my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn) in 2018.
+I received my Ph.D. degree from [Department of Computer Science and Engineering](https://www.cse.ust.hk) at [Hong Kong University of Science and Technology](http://www.ust.hk), where I'm supervised by Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). Prior to that, I obtained my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn) in 2018.
 
 My research interests cover the board area of distributed systems and cloud computing, with special focus on machine learning systems and serverless computing. 
 
-I'm in the job market. [**Curriculum vitae**](https://mincyu.github.io/archive/CV_Minchen.pdf).
+[**Curriculum vitae**](https://mincyu.github.io/archive/CV_Minchen.pdf).
 
 <!-- Here is my CV.  -->
 
@@ -23,13 +23,6 @@ I'm in the job market. [**Curriculum vitae**](https://mincyu.github.io/archive/C
 - Chengliang Zhang, <ins>Minchen Yu</ins>, Wei Wang, and Feng Yan, "[Enabling Cost-Effective, SLO-Aware Machine Learning Inference Serving on Public Cloud](https://mincyu.github.io/papers/MArk-tcc20.pdf)," in IEEE Transactions on Cloud Computing (***TCC***), 2020.
 - Chengliang Zhang, <ins>Minchen Yu</ins>, Wei Wang, and Feng Yan, "[MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](https://mincyu.github.io/papers/mark-atc19.pdf)," in the Proceedings of USENIX Annual Technical Conference (***ATC'19***), Renton, WA, July 2019.
 - Huangshi Tian, <ins>Minchen Yu</ins>, and Wei Wang, "[Continuum: A Platform for Cost-Aware, Low-Latency Continual Learning](https://mincyu.github.io/papers/huangshi-socc18.pdf)," in the Proceedings of ACM Symposium on Cloud Computing (***SoCC'18***), Carlsbad, CA, October 2018.
-
-### Honors and Awards
-
-- SENG Academic Award for Continuing PhD Students (HKUST, 2020)
-- University Outstanding Graduate (Nanjing University, 2018)
-- National Scholarship (Nanjing University, 2016)
-- People's Scholarship (Nanjing University, 2015 & 2017)
 
 ### Teaching Experience
 
