@@ -16,7 +16,7 @@ My research interests cover the board area of distributed systems and cloud comp
 
 [**Curriculum vitae**](./files/CV_Minchen.pdf).
 
-# Publications
+## Publications
 
 - <ins>Minchen Yu</ins>, Tingjia Cao, Wei Wang, Ruichuan Chen, "[Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing](./files/pheromone-nsdi23.pdf)", in the Proceedings of the 20th USENIX Symposium on Networked Systems Design and Implementation (***NSDI’23***), Boston, MA, April 2023. [[code](https://github.com/MincYu/pheromone)]
 - <ins>Minchen Yu</ins>, Zhifeng Jiang, Hok Chun Ng, Wei Wang, Ruichuan Chen, and Bo Li, ''[Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning](./files/gillis-icdcs21.pdf),'' in the Proceedings of the 41st IEEE International Conference on Distributed Computing Systems (***ICDCS'21***), Virtual Conference, July 2021. **(Best Paper Runner Up)**  [[code](https://github.com/MincYu/gillis-open-source)]
@@ -27,7 +27,7 @@ My research interests cover the board area of distributed systems and cloud comp
 - Huangshi Tian, <ins>Minchen Yu</ins>, and Wei Wang, "[Continuum: A Platform for Cost-Aware, Low-Latency Continual Learning](./files/huangshi-socc18.pdf)," in the Proceedings of ACM Symposium on Cloud Computing (***SoCC'18***), Carlsbad, CA, October 2018.
 
 
-# Honors and Awards
+## Honors and Awards
 
 - HKUST RedBird Academic Excellence Award, 2023
 - USENIX NSDI Student Travel Grant, 2023
@@ -38,7 +38,7 @@ My research interests cover the board area of distributed systems and cloud comp
 
 
 
-# Teaching Experience
+## Teaching Experience
 
 *Teaching Assistant at HKUST:*
 
