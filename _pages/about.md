@@ -1,14 +1,14 @@
 ---
 permalink: /
 title: # "Minchen Yu 余旻晨"
-excerpt: # "About me"
+# excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## About me
+## About Me
 
 I received my Ph.D. degree from [Department of Computer Science and Engineering](https://www.cse.ust.hk) at [Hong Kong University of Science and Technology](http://www.ust.hk), where I was supervised by Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). Prior to that, I obtained my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn) in 2018.
 
