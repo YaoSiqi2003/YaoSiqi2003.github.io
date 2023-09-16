@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Minchen Yu 余旻晨"
+title: # "Minchen Yu 余旻晨"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
