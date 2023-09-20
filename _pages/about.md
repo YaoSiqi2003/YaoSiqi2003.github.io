@@ -10,9 +10,9 @@ redirect_from:
 
 <!-- ## About me -->
 
-I received my Ph.D. degree from [Department of Computer Science and Engineering](https://www.cse.ust.hk) at [Hong Kong University of Science and Technology](http://www.ust.hk), where I was supervised by Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). Prior to that, I obtained my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn) in 2018.
+I received my Ph.D. degree from [Department of Computer Science and Engineering](https://www.cse.ust.hk) at [Hong Kong University of Science and Technology](http://www.ust.hk), advised by Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). Prior to that, I obtained my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn) in 2018.
 
-My research interests cover the board area of distributed systems and cloud computing, with special focus on machine learning systems and serverless computing. 
+I'm broadly interested in cloud computing and distributed systems. My recent research focuses on building **next-generation serverless cloud platforms** that are usable and generally applicable, and developing efficient and scalable **big data and machine learning systems** in the cloud.
 
 [**Curriculum vitae**](./files/CV_Minchen.pdf).
 
