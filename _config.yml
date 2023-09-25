@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Minchen Yu"
   avatar           : "photo.jpg"
-  bio              : "PhD"
+  bio              : "Post-Doc at HKUST"
   location         : 
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "minchen-yu-362454143"
+  linkedin         : #"minchen-yu-362454143"
   orcid            : "https://orcid.org/0000-0002-6797-9028"
   pinterest        :
   soundcloud       :
