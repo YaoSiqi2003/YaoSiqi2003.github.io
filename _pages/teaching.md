@@ -5,8 +5,6 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Teaching Experience
-
 ### Course Instructor at CUHK-SZ:
 - CSC4303/CSC6203 Network Programming, Spring 2024 (Incoming)
 

@@ -19,7 +19,7 @@ My research interests cover the broad area of cloud computing and distributed sy
 
 <!-- [**Curriculum vitae**](./files/CV_Minchen.pdf). -->
 
-### News
+## News
 
 - [2023/12] I joined CUHK-SZ as an Assistant Professor.
 
