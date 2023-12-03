@@ -10,40 +10,16 @@ redirect_from:
 
 <!-- ## About me -->
 
-I am a Post-Doctoral Fellow at [Hong Kong University of Science and Technology](http://www.ust.hk) (HKUST). I received my Ph.D. degree from [Department of Computer Science and Engineering](https://www.cse.ust.hk) at HKUST, advised by Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). Prior to that, I obtained my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn) in 2018.
-<span style="color:red">I will be joining the School of Data Science, Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) as an assistant professor. I am actively looking for PhD students (2024 Fall) and research assistants to work with me. If you are interested, please feel free to drop me an email along with your CV and transcripts.</span>
+I am an Assistant Professor in School of Data Science, The Chinese University of Hong Kong, Shenzhen (CUHK-SZ). Prior to that, I was a Post-Doctoral Fellow and received my PhD degree in the [Department of Computer Science and Engineering](https://www.cse.ust.hk) at [Hong Kong University of Science and Technology](http://www.ust.hk), advised by  Prof. [Wei Wang](http://www.cse.ust.hk/~weiwa/). I obtained my B.Eng. degree in Software Engineering from [Nanjing University](https://www.nju.edu.cn).
 
-My research interests are primarily in cloud computing and distributed systems. My recent research focuses on building **next-generation serverless computing platforms** that are usable and generally applicable, and developing efficient and scalable **big data and machine learning systems** in the cloud.
+My research interests cover the broad area of cloud computing and distributed systems. My current research focuses on building **next-generation serverless computing platforms** that are usable and generally applicable, and developing efficient and scalable **big data and machine learning systems** in the cloud.
 
-[**Curriculum vitae**](./files/CV_Minchen.pdf).
-
-
-## Publications
-
-- **Minchen Yu**, Tingjia Cao, Wei Wang, Ruichuan Chen, "[Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing](./files/pheromone-nsdi23.pdf)", in the Proceedings of the 20th USENIX Symposium on Networked Systems Design and Implementation (***NSDI’23***), Boston, MA, April 2023. [[code](https://github.com/MincYu/pheromone)]
-- **Minchen Yu**, Zhifeng Jiang, Hok Chun Ng, Wei Wang, Ruichuan Chen, and Bo Li, ''[Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning](./files/gillis-icdcs21.pdf),'' in the Proceedings of the 41st IEEE International Conference on Distributed Computing Systems (***ICDCS'21***), Virtual Conference, July 2021. **(Best Paper Runner Up)**  [[code](https://github.com/MincYu/gillis-open-source)]
-- Huangshi Tian, **Minchen Yu**, and Wei Wang, ''[CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](./files/crystalperf-atc21.pdf),'' in the Proceedings of USENIX Annual Technical Conference (***ATC ’21***), Virtual Conference, July 2021.
-- **Minchen Yu**, Yinghao Yu, Yunchuan Zheng, Baichen Yang, and Wei Wang, "[RepBun: Load-Balanced, Shuffle-Free Cluster Caching for Structured Data](./files/repbun-infocom20.pdf)," in the Proceedings of ***IEEE INFOCOM'20***, Virtual Conference, July 2020.
-- Chengliang Zhang, **Minchen Yu**, Wei Wang, and Feng Yan, "[Enabling Cost-Effective, SLO-Aware Machine Learning Inference Serving on Public Cloud](./files/MArk-tcc20.pdf)," in IEEE Transactions on Cloud Computing (***TCC***), 2020.
-- Chengliang Zhang, **Minchen Yu**, Wei Wang, and Feng Yan, "[MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](./files/mark-atc19.pdf)," in the Proceedings of USENIX Annual Technical Conference (***ATC'19***), Renton, WA, July 2019.
-- Huangshi Tian, **Minchen Yu**, and Wei Wang, "[Continuum: A Platform for Cost-Aware, Low-Latency Continual Learning](./files/huangshi-socc18.pdf)," in the Proceedings of ACM Symposium on Cloud Computing (***SoCC'18***), Carlsbad, CA, October 2018.
+<span style="color:red">I am looking for motivated PhD students (2024 Fall) and research assistants to work with me. If you are interested, please feel free to drop me an email along with your CV and transcripts.</span>
 
 
-## Honors and Awards
+<!-- [**Curriculum vitae**](./files/CV_Minchen.pdf). -->
 
-- HKUST RedBird Academic Excellence Award, 2023
-- USENIX NSDI Student Travel Grant, 2023
-- IEEE ICDCS Best Paper Runner-Up Award, 2021
-- HKUST SENG Academic Award for Continuing PhD Students, 2020
-- Huawei PhD Fellowship, 2018
-- National Scholarship, 2016
+### News
 
-
-
-## Teaching Experience
-
-*Teaching Assistant at HKUST:*
-
-- COMP 4651 Cloud Computing and Big Data Systems, Spring 2021 & Spring 2022
-- COMP 3511 Operating System, Spring 2019
+- [2023/12] I joined CUHK-SZ as an Assistant Professor.
 

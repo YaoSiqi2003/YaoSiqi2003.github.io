@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minchen Yu 余旻晨"
+title                    : "Minchen Yu (余旻晨)"
 title_separator          : "-"
 name                     : &name
 description              : &description "personal description"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Minchen Yu"
   avatar           : "photo.jpg"
-  bio              : "Post-Doc at HKUST"
+  bio              : "Assistant Professor@CUHK-SZ"
   location         : 
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?&user=Kz2aAHQAAAAJ"
-  email            : "myuaj@connect.ust.hk"
+  email            : "yuminchen@cuhk.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : #"minchen-yu-362454143"
+  linkedin         : "minchen-yu-362454143"
   orcid            : "https://orcid.org/0000-0002-6797-9028"
   pinterest        :
   soundcloud       :
