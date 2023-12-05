@@ -14,7 +14,7 @@ I am an Assistant Professor in [School of Data Science](https://sds.cuhk.edu.cn/
 
 My research interests cover the broad area of cloud computing and distributed systems. My current research focuses on building **next-generation serverless computing platforms** that are usable and generally applicable, and developing efficient and scalable **big data and machine learning systems** in the cloud.
 
-<span style="color:red">I am looking for motivated graduate students (PhD/MPhil) and research assistants (RA) to work with me. If you are interested, please feel free to drop me an email along with your CV and transcripts.</span>
+<span style="color:red">I am looking for motivated graduate students (PhD/MPhil) and research assistants (RA) to work with me. If you are interested, please feel free to drop me an email along with your CV and transcripts. [advertisement(中文)](../files/ad.pdf)</span>
 
 
 <!-- [**Curriculum vitae**](./files/CV_Minchen.pdf). -->
