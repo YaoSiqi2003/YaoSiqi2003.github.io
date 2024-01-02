@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### Course Instructor at CUHK-SZ:
-- CSC4303/CSC6203 Network Programming, Spring 2024 (Incoming)
+- CSC4303/CSC6203 Network Programming, Spring 2024
 
 ### Teaching Assistant at HKUST:
 
