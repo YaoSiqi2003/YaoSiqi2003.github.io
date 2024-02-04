@@ -16,8 +16,6 @@ My research interests cover the broad area of cloud computing and distributed sy
 
 - Scalable ML inference: [FaaSwap](https://arxiv.org/abs/2306.03622), [Gillis](../files/gillis-icdcs21.pdf) (ICDCS'21), [MArk](../files/mark-atc19.pdf) (ATC'19)
 - LLM serving: [CaraServe](https://arxiv.org/abs/2401.11240)
-
-
 - Usable, efficient serverless computing : [Pheromone](../files/pheromone-nsdi23.pdf) (NSDI'23)
 - Data analytics and caching: [CrystalPerf](../files/crystalperf-atc21.pdf) (ATC'21), [RepBun](../files/repbun-infocom20.pdf) (INFOCOM'20)
 
