@@ -30,5 +30,6 @@ My research interests cover the broad area of cloud computing and distributed sy
 
 ## News
 
-- [2023/12] I joined CUHK-SZ as an Assistant Professor.
+- 2024.04: I will serve on the PC of [NSDI'25](https://www.usenix.org/conference/nsdi25). Please consider submitting.
+- 2023.12: I joined CUHK-SZ as an Assistant Professor.
 
