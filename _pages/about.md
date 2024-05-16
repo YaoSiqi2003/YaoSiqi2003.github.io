@@ -23,7 +23,7 @@ My research interests cover the broad area of cloud computing and distributed sy
 
 
 
-<span style="color:red">I am looking for motivated graduate students (PhD/MPhil) and research assistants (RA) to work with me. If you are interested, please feel free to drop me an email along with your CV and transcripts. [Recruitment ad (中文)](../files/ad.pdf)</span>
+**I am looking for self-motivated graduate students (PhD/MPhil) and research assistants (RA) to work with me. If you are interested, please feel free to drop me an email along with your CV and transcripts.**
 
 
 <!-- [**Curriculum vitae**](./files/CV_Minchen.pdf). -->
