@@ -14,7 +14,7 @@ I am an Assistant Professor in [School of Data Science](https://sds.cuhk.edu.cn/
 
 My research interests cover the broad area of cloud computing and distributed systems, with a special focus on ***serverless computing***, ***big data and machine learning systems***. I am particularly interested in identifying fundamental system challenges in these areas and investigating system solutions that are efficient and easy to use. Some of our recent research projects include:
 
-- Scalable ML and LLM inference: [CaraServe](https://arxiv.org/abs/2401.11240), [FaaSwap](https://arxiv.org/abs/2306.03622), [Gillis](../files/gillis-icdcs21.pdf) (ICDCS'21), [MArk](../files/mark-atc19.pdf) (ATC'19)
+- Scalable ML/LLM serving: [CaraServe](https://arxiv.org/abs/2401.11240), [FaaSwap](https://arxiv.org/abs/2306.03622), [Gillis](../files/gillis-icdcs21.pdf) (ICDCS'21), [MArk](../files/mark-atc19.pdf) (ATC'19)
 - Usable, efficient serverless computing : [Pheromone](../files/pheromone-nsdi23.pdf) (NSDI'23)
 - Big data analytics and caching: [CrystalPerf](../files/crystalperf-atc21.pdf) (ATC'21), [RepBun](../files/repbun-infocom20.pdf) (INFOCOM'20)
 
@@ -22,7 +22,7 @@ My research interests cover the broad area of cloud computing and distributed sy
 
 
 
-I am looking for self-motivated graduate students (PhD/MPhil starting 2025) and research assistants (RAs). If you are interested in working with me, please feel free to drop me an email along with your CV and transcripts. 
+I am looking for self-motivated graduate students (***PhD/MPhil starting 2025***) and research assistants (RAs) to work on the areas of distributed ML and big data systems, serverless computing, and large-scale cluster management systems. If you are interested in working with me, please feel free to drop me an email along with your CV and transcripts. 
 
 
 <!-- [**Curriculum vitae**](./files/CV_Minchen.pdf). -->
