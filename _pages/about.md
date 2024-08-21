@@ -22,7 +22,7 @@ My research interests cover the broad area of cloud computing and distributed sy
 
 
 
-I am looking for self-motivated graduate students (***PhD/MPhil starting 2025***) and research assistants (RAs) to work on the areas of distributed ML and big data systems, serverless computing, and large-scale cluster management systems. If you are interested in working with me, please feel free to drop me an email along with your CV and transcripts. 
+I am looking for self-motivated graduate students (***PhD/MPhil starting 2025***) and research assistants (RAs) to work on the areas of distributed ML and big data systems, next-generation serverless computing platforms, and large-scale cluster management systems. If you are interested in working with me, please feel free to drop me an email along with your CV and transcripts. 
 
 
 <!-- [**Curriculum vitae**](./files/CV_Minchen.pdf). -->
