@@ -29,6 +29,7 @@ I am looking for self-motivated graduate students (***PhD/MPhil starting 2025***
 
 ## News
 
+- 2024.07: Awarded CCF-Huawei Populus Grove Fund. Thanks CCF and Huawei!
 - 2024.04: I will serve on the PC of [NSDI'25](https://www.usenix.org/conference/nsdi25). Please consider submitting.
 - 2023.12: I joined CUHK-SZ as an Assistant Professor.
 
