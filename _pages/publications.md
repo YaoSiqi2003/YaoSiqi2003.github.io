@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+- Minchen Yu, Tingjia Cao, Wei Wang, Ruichuan Chen, "Pheromone: Restructuring Serverless Computing with Data-Centric Function Orchestration", accepted in IEEE/ACM Transactions on Networking (***TON***), 2024.
 - Minchen Yu, Tingjia Cao, Wei Wang, Ruichuan Chen, "[Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing](../files/pheromone-nsdi23.pdf)", in the Proceedings of the 20th USENIX Symposium on Networked Systems Design and Implementation (***NSDI’23***), Boston, MA, April 2023. [[code](https://github.com/MincYu/pheromone)]
 - Minchen Yu, Zhifeng Jiang, Hok Chun Ng, Wei Wang, Ruichuan Chen, and Bo Li, ''[Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning](../files/gillis-icdcs21.pdf),'' in the Proceedings of the 41st IEEE International Conference on Distributed Computing Systems (***ICDCS'21***), Virtual Conference, July 2021. **(Best Paper Runner Up)**  [[code](https://github.com/MincYu/gillis-open-source)]
 - Huangshi Tian, Minchen Yu, and Wei Wang, ''[CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](../files/crystalperf-atc21.pdf),'' in the Proceedings of USENIX Annual Technical Conference (***ATC ’21***), Virtual Conference, July 2021.
