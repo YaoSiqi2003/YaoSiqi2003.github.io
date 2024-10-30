@@ -3,11 +3,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Group"
-    url: /group/    
+  - title: "Course Projects"
+    url: /course projects/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  #- title: "Teaching"
+  #  url: /teaching/    
     
   # - title: "Portfolio"
   #   url: /portfolio/
@@ -15,8 +15,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "CV"
-    url: /files/CV_Minchen.pdf
+  #- title: "CV"
+  #  url: /files/CV_Minchen.pdf
     
   # - title: "Guide"
   #   url: /markdown/
