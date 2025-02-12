@@ -7,11 +7,12 @@ author_profile: true
 
 ## 24-25 Fall, UC Berkeley
 
-- **INDENG 174**: Simulation for Enterprise-Scale Systems (In Progress)
-- **COMPSCI 188**: Introduction to Artificial Intelligence (In Progress)
+- [**INDENG 174**: Simulation for Enterprise-Scale Systems](https://github.com/YaoSiqi2003/IND-ENG-174)
+- [**COMPSCI 188**: Introduction to Artificial Intelligence](https://github.com/YaoSiqi2003/CS188-Introduction-to-Artificial-Intelligence)
+
 
 ## 24-25 Spring, CUHK-SZ
 
-- **DDA4210**: Advanced Machine Learning
-- **CSC4140**: Computer Graphics 
-- **CSC4150**: Mobile Computing with Internet of Things
+- **DDA4210**: Advanced Machine Learning (In Progress)
+- **CSC4150**: Mobile Computing with Internet of Things (In Progress)
+- **DDA4300**: Optimization in Data Science and Machine Learning (Taught by Prof.Yinyu Ye) (In Progress)
