@@ -5,6 +5,16 @@ permalink: /course projects/
 author_profile: true
 ---
 
+## 22 Winter, CUHK-SZ
+
+- [Self Study on MACD Index:](https://github.com/YaoSiqi2003/Study-on-MACD-index)
+
+
+## 23-24 Fall, CUHK-SZ
+
+- [**DDA3005**: Numerical Methods](https://github.com/YaoSiqi2003/DDA3005-Numerical-Methods)
+
+
 ## 24-25 Fall, UC Berkeley
 
 - [**INDENG 174**: Simulation for Enterprise-Scale Systems](https://github.com/YaoSiqi2003/IND-ENG-174)
@@ -15,4 +25,4 @@ author_profile: true
 
 - **DDA4210**: Advanced Machine Learning (In Progress)
 - **CSC4150**: Mobile Computing with Internet of Things (In Progress)
-- **DDA4300**: Optimization in Data Science and Machine Learning (Taught by Prof.Yinyu Ye) (In Progress)
+- **DDA4300**: Optimization in Data Science and Machine Learning (Taught by Prof. Yinyu Ye) (In Progress)
