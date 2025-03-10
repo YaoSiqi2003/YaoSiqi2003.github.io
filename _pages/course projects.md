@@ -7,7 +7,7 @@ author_profile: true
 
 ## 22 Winter, CUHK-SZ
 
-- [Self Study on MACD Index:](https://github.com/YaoSiqi2003/Study-on-MACD-index)
+- [Self Study on MACD Index](https://github.com/YaoSiqi2003/Study-on-MACD-index)
 
 
 ## 23-24 Fall, CUHK-SZ
