@@ -7,9 +7,9 @@ author_profile: true
 
 ## 24-25 Spring, CUHK-SZ
 
-- **DDA4210**: Advanced Machine Learning (In Progress)
-- **CSC4150**: Mobile Computing with Internet of Things (In Progress)
-- **DDA4300**: Optimization in Data Science and Machine Learning (Taught by Prof. [Yinyu Ye](https://en.wikipedia.org/wiki/Yinyu_Ye)) (In Progress)
+- **DDA4210**: Advanced Machine Learning 
+- [**CSC4150**: Mobile Computing with Internet of Things](https://github.com/YaoSiqi2003/CSC4150)  
+- [**DDA4300**: Optimization in Data Science and Machine Learning](https://github.com/YaoSiqi2003/DDA4300)   (Taught by Prof. [Yinyu Ye](https://en.wikipedia.org/wiki/Yinyu_Ye))  
 
 ## 24-25 Fall, UC Berkeley
 
