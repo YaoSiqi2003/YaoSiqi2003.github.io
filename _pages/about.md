@@ -14,4 +14,6 @@ redirect_from:
 
 ## News
 
+<p>I am self-studying SDEs, some notes can be found in <a href="https://github.com/YaoSiqi2003/Notes-on-SDE">here</a> and <a href="https://github.com/YaoSiqi2003/Notes-on-Fokker-Planck-Equation">here</a>.</p>
+
 <p>Some recent investigation on generative models can be found in here: <a href="https://github.com/YaoSiqi2003">slides</a>, <a href="https://github.com/YaoSiqi2003">report</a>.</p>
