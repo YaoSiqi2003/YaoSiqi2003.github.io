@@ -16,7 +16,7 @@ redirect_from:
 <p><strong>2025.5.18</strong>: Some recent investigation on generative models can be found in here: <a href="https://github.com/YaoSiqi2003">slides</a>, <a href="https://github.com/YaoSiqi2003">report</a>.</p>
 
 
-<p><strong>2025.4.30</strong>: Some notes on coding theory can be found <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a> .</p>
+<p><strong>2025.4.30</strong>: Some notes on coding theory can be found <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
 
 
 
