@@ -8,7 +8,6 @@ author_profile: true
 ## 24-25 Spring, CUHK-SZ
 
 - [**DDA4210**: Advanced Machine Learning](https://github.com/YaoSiqi2003/DDA4210-Advance-Machine-Learning) 
-- [**DDA4300**: Optimization in Data Science and Machine Learning](https://github.com/YaoSiqi2003/DDA4300)   (Taught by Prof. [Yinyu Ye](https://en.wikipedia.org/wiki/Yinyu_Ye))  
 
 ## 24-25 Fall, UC Berkeley
 
