@@ -21,5 +21,5 @@ redirect_from:
 
 
 
-<p><strong>2025.4.27</strong>: I am self-studying SDEs, some notes can be found in <a href="https://github.com/YaoSiqi2003/Notes-on-SDE">here</a> and <a href="https://github.com/YaoSiqi2003/Notes-on-Fokker-Planck-Equation">here</a>.</p>
+<p><strong>2025.4.27</strong>: I am self-studying SDEs, some notes can be found in <a href="https://github.com/YaoSiqi2003/Notes-on-SDE">here</a>.</p>
 
