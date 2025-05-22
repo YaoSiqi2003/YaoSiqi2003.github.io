@@ -13,7 +13,7 @@ redirect_from:
 <p>My research interest lies in <strong>machine learning</strong>, <strong>generative models</strong> and <strong>optimization</strong>.</p>
 
 ## News
-<p><strong>2025.5.18</strong>: Some investigations on the paper 'Energy based diffusion generator for efficient sampling of Boltzmann distributions' by Wang et al. can be found in here: <a href="/files/energy_based_diffusion.pdf">slides</a>.</p>
+<p><strong>2025.5.22</strong>: Some investigations on the paper 'Energy based diffusion generator for efficient sampling of Boltzmann distributions' by Wang et al. can be found in here: <a href="/files/energy_based_diffusion.pdf">slides</a>.</p>
 
 
 <p><strong>2025.4.30</strong>: Some notes on coding theory can be found <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
