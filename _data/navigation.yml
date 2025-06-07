@@ -6,6 +6,9 @@ main:
   - title: "Course Projects"
     url: /course projects/    
 
+  - title: "Learning"
+    url: /learning/
+
   #- title: "Teaching"
   #  url: /teaching/    
     
