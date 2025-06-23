@@ -7,7 +7,7 @@ author_profile: true
 
 ## Recent Learning Notes
 
-<p><strong>2025.6.22</strong>: Some summary on score matching and flow matching can be found here: <a href="/files/Score_matching_flow_matching.pdf">slides</a>.</p>
+<p><strong>2025.6.23</strong>: Some summary on score matching and flow matching can be found here: <a href="/files/Score_matching_flow_matching.pdf">slides</a>.</p>
 
 <p><strong>2025.5.22</strong>: Some investigations on the paper 'Energy based diffusion generator for efficient sampling of Boltzmann distributions' by Wang et al. can be found here: <a href="/files/energy_based_diffusion.pdf">slides</a>.</p>
 
