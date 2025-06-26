@@ -10,7 +10,7 @@ redirect_from:
 
 <p>I am an undergraduate student in <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a>.</p>
 
-<p>My research interest lies in <strong>optimization</strong>, <strong>generative models</strong> and <strong>quantum computing</strong>.</p>
+<p>My research interest lies in <strong>generative models</strong>, <strong>quantum computing</strong> and <strong>quantum information</strong>.</p>
 
 ## News
 
