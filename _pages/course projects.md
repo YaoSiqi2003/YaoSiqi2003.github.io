@@ -5,9 +5,14 @@ permalink: /course projects/
 author_profile: true
 ---
 
+## 24-25 Summer, CUHK-SZ
+
+- **ECE4513**: Image Processing and Computer Vision (In Progress)
+
+
 ## 24-25 Spring, CUHK-SZ
 
-- [**DDA4210**: Advanced Machine Learning](https://github.com/YaoSiqi2003/DDA4210-Advance-Machine-Learning) 
+- [**DDA4210**: Advanced Machine Learning](https://github.com/YaoSiqi2003/DDA4210-Advanced-Machine-Learning) 
 
 ## 24-25 Fall, UC Berkeley
 
