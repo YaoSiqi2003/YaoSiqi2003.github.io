@@ -7,6 +7,9 @@ author_profile: true
 
 ## Recent Learning Notes
 
+<p><strong>2025.7.19</strong>: Playing around with diffusion models: <a href="/files/fun with diffusion models.pptx">slides</a>.</p>
+
+
 <p><strong>2025.7.13</strong>: Some summary on rectified flow and stochastic interpolation can be found here: <a href="/files/Rectified_flow_stochastic_interpolation.pdf">slides</a>.</p>
 
 <p><strong>2025.6.23</strong>: Some summary on score matching and flow matching can be found here: <a href="/files/Score_matching_flow_matching.pdf">slides</a>.</p>
