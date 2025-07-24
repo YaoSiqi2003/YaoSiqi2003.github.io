@@ -7,6 +7,11 @@ author_profile: true
 
 ## Recent Learning Notes
 
+
+<p><strong>2025.7.24</strong>: Miscellaneous notes on quantum information: in progress.</p>
+
+
+
 <p><strong>2025.7.19</strong>: Playing around with diffusion models: <a href="/files/fun with diffusion models.pptx">slides</a>.</p>
 
 
