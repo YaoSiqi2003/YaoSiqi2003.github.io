@@ -8,7 +8,7 @@ author_profile: true
 ## Recent Learning Notes
 
 
-<p><strong>2025.7.24</strong>: Miscellaneous notes on quantum information: in progress.</p>
+<p><strong>2025.7.24</strong>: Notes on quantum SWITCH and communication enhancement: in progress.</p>
 
 
 
