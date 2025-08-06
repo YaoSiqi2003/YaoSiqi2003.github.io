@@ -8,6 +8,9 @@ author_profile: true
 ## Recent Learning Notes
 
 
+
+<p><strong>2025.8.6</strong>: Reading notes on the paper 'Super-additivity of quantum capacity in simple channels' by Wu et al.: in progress.</p>
+
 <p><strong>2025.8.5</strong>: Notes on quantum SWITCH and communication enhancement: <a href="/files/Quantum_SWITCH_for_Communication_Enhancement.pdf">slides</a>.</p>
 
 
@@ -19,7 +22,7 @@ author_profile: true
 
 <p><strong>2025.6.23</strong>: Some summary on score matching and flow matching can be found here: <a href="/files/Score_matching_flow_matching.pdf">slides</a>.</p>
 
-<p><strong>2025.5.22</strong>: Some investigations on the paper 'Energy based diffusion generator for efficient sampling of Boltzmann distributions' by Wang et al. can be found here: <a href="/files/energy_based_diffusion.pdf">slides</a>.</p>
+<p><strong>2025.5.22</strong>: Reading notes on the paper 'Energy based diffusion generator for efficient sampling of Boltzmann distributions' by Wang et al. can be found here: <a href="/files/energy_based_diffusion.pdf">slides</a>.</p>
 
 <p><strong>2025.4.30</strong>: Some notes on coding theory can be found <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
 
