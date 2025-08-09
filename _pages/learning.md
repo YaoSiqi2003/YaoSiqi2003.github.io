@@ -8,8 +8,7 @@ author_profile: true
 ## Recent Learning Notes
 
 
-
-<p><strong>2025.8.6</strong>: Reading notes on the paper 'Super-additivity of quantum capacity in simple channels' by Wu et al.: in progress.</p>
+<p><strong>2025.8.9</strong>: Short notes on capacity measures and additivity: <a href="/files/Short_notes_on_capacity_measures_and_additivity.pdf">slides</a>.</p>
 
 <p><strong>2025.8.5</strong>: Notes on quantum SWITCH and communication enhancement: <a href="/files/Quantum_SWITCH_for_Communication_Enhancement.pdf">slides</a>.</p>
 
