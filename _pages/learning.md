@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 ## Recent Learning Notes
+<p><strong>2025.8.15</strong>: Notes on Device-Independent Quantum Key Distribution: in progress.</p>
 
 
 <p><strong>2025.8.9</strong>: Short notes on capacity measures and additivity: <a href="/files/Short_notes_on_capacity_measures_and_additivity.pdf">slides</a>.</p>

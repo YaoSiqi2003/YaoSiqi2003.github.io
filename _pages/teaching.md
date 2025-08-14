@@ -5,14 +5,13 @@ permalink: /teaching/
 author_profile: true
 ---
 
-### Course Instructor at CUHK-SZ
+<!-- ### Course Instructor at CUHK-SZ
 
 - CSC4160 Cloud Computing, Fall 2024
-- CSC4303/CSC6203 Network Programming, Spring 2024
+- CSC4303/CSC6203 Network Programming, Spring 2024 -->
 
-### Teaching Assistant at HKUST
+### Teaching Assistant at CUHK(SZ)
 
-- COMP 4651 Cloud Computing and Big Data Systems, Spring 2021 & Spring 2022
-- COMP 3511 Operating System, Spring 2019
-
+- CSC4012 Introduction to Quantum Computation and Quantum Information, Fall 2025
+ 
 
