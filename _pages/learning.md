@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Recent Learning Notes
-<p><strong>2025.8.15</strong>: Notes on Device-Independent Quantum Key Distribution: in progress.</p>
+<p><strong>2025.8.17</strong>: Reading notes on the paper 'Compression of Quantum Shallow-Circuit States' by Yuxiang Yang: in progress.</p>
 
 
 <p><strong>2025.8.9</strong>: Short notes on capacity measures and additivity: <a href="/files/Short_notes_on_capacity_measures_and_additivity.pdf">slides</a>.</p>
@@ -18,12 +18,12 @@ author_profile: true
 <p><strong>2025.7.19</strong>: Playing around with diffusion models: <a href="/files/fun with diffusion models.pptx">slides</a>.</p>
 
 
-<p><strong>2025.7.13</strong>: Some summary on rectified flow and stochastic interpolation: <a href="/files/Rectified_flow_stochastic_interpolation.pdf">slides</a>.</p>
+<p><strong>2025.7.13</strong>: Summary on rectified flow and stochastic interpolation: <a href="/files/Rectified_flow_stochastic_interpolation.pdf">slides</a>.</p>
 
-<p><strong>2025.6.23</strong>: Some summary on score matching and flow matching: <a href="/files/Score_matching_flow_matching.pdf">slides</a>.</p>
+<p><strong>2025.6.23</strong>: Summary on score matching and flow matching: <a href="/files/Score_matching_flow_matching.pdf">slides</a>.</p>
 
 <p><strong>2025.5.22</strong>: Reading notes on the paper 'Energy based diffusion generator for efficient sampling of Boltzmann distributions' by Wang et al.: <a href="/files/energy_based_diffusion.pdf">slides</a>.</p>
 
-<p><strong>2025.4.30</strong>: Some notes on coding theory can be found <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
+<p><strong>2025.4.30</strong>: Notes on coding theory can be found <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
 
-<p><strong>2025.1.2</strong>: A very brief discussion on the paper 'Learning to Optimize for Mixed-Integer Non-linear Programming' by Tang et al.: <a href="/files/MINLP_Presentation.pdf">slides</a>.</p> 
+<p><strong>2025.1.2</strong>: Very brief discussion on the paper 'Learning to Optimize for Mixed-Integer Non-linear Programming' by Tang et al.: <a href="/files/MINLP_Presentation.pdf">slides</a>.</p> 
