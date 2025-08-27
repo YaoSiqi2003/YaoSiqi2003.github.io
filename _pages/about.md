@@ -8,9 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-<p>I am an undergraduate student in <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a>.</p>
+<p>I am an undergraduate student in <a href="https://sds.cuhk.edu.cn/en">School of Data Science, The Chinese University of Hong Kong, Shenzhen</a>.</p>
 
-<p>My research interest lies in <strong>generative models</strong>, <strong>quantum computing</strong> and <strong>quantum information</strong>.</p>
+<!-- <p>My research interest lies in <strong>generative models</strong>, <strong>quantum computing</strong> and <strong>quantum information</strong>.</p> -->
+
+<h3>Research Interests</h3>
+<ul>
+  <li><strong>Quantum computation</strong></li>
+  <li><strong>Quantum information</strong></li>
+  <li><strong>Intersection between quantum science and AI</strong></li>
+</ul>
+
+
+ 
 
 ## News
 
