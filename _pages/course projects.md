@@ -7,8 +7,7 @@ author_profile: true
 
 ## 24-25 Summer, CUHK-SZ
 
-- **ECE4513**: Image Processing and Computer Vision (In Progress)
-
+- [**ECE4513**: Image Processing and Computer Vision](https://github.com/YaoSiqi2003/ECE4513-Image-Processing-and-Computer-Vision) 
 
 ## 24-25 Spring, CUHK-SZ
 
