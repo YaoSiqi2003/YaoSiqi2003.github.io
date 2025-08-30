@@ -4,13 +4,13 @@ title: "Learning Notes"
 excerpt: "Learning Notes"
 author_profile: true
 ---
-<!-- 
-##  2025
-  -->
 
-<!-- 
-<p><strong>2025.8.25</strong>: Notes on Hamiltonians, adiabatic algorithm and QAOA: in progress.</p> -->
-<!-- 
+##  2025
+ 
+
+ 
+ 
+ 
 <p><strong>2025.8.9</strong>: Short notes on capacity measures and additivity: <a href="/notes/Short_notes_on_capacity_measures_and_additivity.pdf">slides</a>.</p>
 
 <p><strong>2025.8.5</strong>: Notes on quantum SWITCH and communication enhancement: <a href="/notes/Quantum_SWITCH_for_Communication_Enhancement.pdf">slides</a>.</p>
@@ -34,10 +34,9 @@ author_profile: true
 
 <p><strong>2025.4.30</strong>: Notes on coding theory can be found <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
 
-<p><strong>2025.1.2</strong>: Very brief discussion on the paper 'Learning to Optimize for Mixed-Integer Non-linear Programming' by Tang et al.: <a href="/notes/MINLP_Presentation.pdf">slides</a>.</p> 
+<!-- <p><strong>2025.1.2</strong>: Very brief discussion on the paper 'Learning to Optimize for Mixed-Integer Non-linear Programming' by Tang et al.: <a href="/notes/MINLP_Presentation.pdf">slides</a>.</p>  -->
 
- -->
-<!-- 
+<!--  
 ##  2024
 
 
