@@ -17,7 +17,7 @@ author_profile: true
 
 
 
-<p><strong>2025.7.19</strong>: Playing around with diffusion models: <a href="/notes/fun with diffusion models.pptx">slides</a>.</p>
+<!-- <p><strong>2025.7.19</strong>: Playing around with diffusion models: <a href="/notes/fun with diffusion models.pptx">slides</a>.</p> -->
 
 
 <p><strong>2025.7.13</strong>: Summary on rectified flow and stochastic interpolation: <a href="/notes/Rectified_flow_stochastic_interpolation.pdf">slides</a>.</p>
