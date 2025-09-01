@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<p>I am an undergraduate student in <a href="https://sds.cuhk.edu.cn/en">School of Data Science, The Chinese University of Hong Kong, Shenzhen</a>. My research interest lies in AI and machine learning, including their theories and real-world applications. Here is my <a href="/files1/Resume.pdf">CV</a>.</p>  
+<p>I am an undergraduate student in <a href="https://sds.cuhk.edu.cn/en">School of Data Science, The Chinese University of Hong Kong, Shenzhen</a>. My research interest lies in AI and machine learning, including their theories and real-world applications. Here is my <a href="/files1/CV.pdf">CV</a>.</p>  
 
 <!-- <p>My research interest lies in <strong>generative models</strong>, <strong>quantum computing</strong> and <strong>quantum information</strong>.</p> -->
 
