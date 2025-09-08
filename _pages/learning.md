@@ -26,9 +26,9 @@ author_profile: true
 
 <p><strong>2025.5.22</strong>: Reading notes on the paper 'Energy based diffusion generator for efficient sampling of Boltzmann distributions' by Wang et al.: <a href="/notes/energy_based_diffusion.pdf">slides</a>.</p>
 
-
+<!-- 
 <p><strong>2025.5.15</strong>: Study on building interpretable emotional dialogue agents via Chain-of-Thought reasoning: <a href="/notes/CoT.pptx">slides</a>, <a href="/notes/CoTReport.pdf">report</a>.</p>
-
+ -->
 
 
 
