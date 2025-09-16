@@ -10,7 +10,9 @@ author_profile: true
 
  
  
- 
+ <p><strong>2025.9.16</strong>: Brief survey on using LLM agents for medical data cleaning: <a href="/notes/Survey on LLM agents for medical data cleaning.pdf">PDF</a>.</p>
+
+
 <p><strong>2025.8.9</strong>: Short notes on capacity measures and additivity: <a href="/notes/Short_notes_on_capacity_measures_and_additivity.pdf">slides</a>.</p>
 
 <p><strong>2025.8.5</strong>: Notes on quantum SWITCH and communication enhancement: <a href="/notes/Quantum_SWITCH_for_Communication_Enhancement.pdf">slides</a>.</p>
