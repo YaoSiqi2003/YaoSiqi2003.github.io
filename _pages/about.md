@@ -15,6 +15,6 @@ redirect_from:
 
 ## News
 
-New paper! See <a href="https://arxiv.org/abs/2510.02071">here</a>.
+<!-- New paper! See <a href="https://arxiv.org/abs/2510.02071">here</a>. -->
 
 
