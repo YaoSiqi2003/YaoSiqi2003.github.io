@@ -10,20 +10,11 @@ redirect_from:
 
 <p>I am an undergraduate student in <a href="https://sds.cuhk.edu.cn/en">School of Data Science, The Chinese University of Hong Kong, Shenzhen</a>. My research interest lies in AI and machine learning, including their theories and real-world applications. Here is my <a href="/files1/CV.pdf">CV</a>.</p>  
 
-<!-- <p>My research interest lies in <strong>generative models</strong>, <strong>quantum computing</strong> and <strong>quantum information</strong>.</p> -->
-
-<!-- <h3>Research Interests</h3>
-<ul>
-  <li><strong>Quantum computation</strong></li>
-  <li><strong>Quantum information</strong></li>
-  <li><strong>Intersection between quantum science and AI</strong></li>
-</ul> -->
-
-
+ 
  
 
 ## News
 
-<!-- Please check the 'Learning' page for updates! -->
+New paper! See <a href="https://arxiv.org/abs/2510.02071">here</a>.
 
 
