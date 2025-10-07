@@ -7,8 +7,8 @@ author_profile: true
 
 ##  2025
  
-<!-- 
- <p><strong>2025.9.16</strong>: Research Proposal on using LLM agents for medical data cleaning: <a href="/notes/Research Proposal LLM agents for medical data cleaning.pdf">report</a>.</p> -->
+<!--  
+ <p><strong>2025.9.16</strong>: Research Proposal on using LLM agents for medical data cleaning: <a href="/notes/Research Proposal LLM agents for medical data cleaning.pdf">report</a>.</p>  -->
 
 <!--  
  <p><strong>2025.9.16</strong>: Brief survey on using LLM agents for medical data cleaning: <a href="/notes/Survey on LLM agents for medical data cleaning.pdf">report</a>.</p> -->
