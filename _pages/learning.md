@@ -13,16 +13,14 @@ author_profile: true
 <!--  
  <p><strong>2025.9.16</strong>: Brief survey on using LLM agents for medical data cleaning: <a href="/notes/Survey on LLM agents for medical data cleaning.pdf">report</a>.</p> -->
 
+<p><strong>10.17</strong>: Reading notes on contextual bandits for LLM routing: <a href="/notes/Contexual_bandits_for_LLM_routing.pdf">slides</a>.</p>
+
 
 <p><strong>8.9</strong>: Short notes on capacity measures and additivity: <a href="/notes/Short_notes_on_capacity_measures_and_additivity.pdf">slides</a>.</p>
 
 <p><strong>8.5</strong>: Notes on quantum SWITCH and communication enhancement: <a href="/notes/Quantum_SWITCH_for_Communication_Enhancement.pdf">slides</a>.</p>
 
-
-
-<!-- <p><strong>2025.7.19</strong>: Playing around with diffusion models: <a href="/notes/fun with diffusion models.pptx">slides</a>.</p> -->
-
-
+ 
 <p><strong>7.13</strong>: Summary on rectified flow and stochastic interpolation: <a href="/notes/Rectified_flow_stochastic_interpolation.pdf">slides</a>.</p>
 
 <p><strong>6.23</strong>: Summary on score matching and flow matching: <a href="/notes/Score_matching_flow_matching.pdf">slides</a>.</p>
