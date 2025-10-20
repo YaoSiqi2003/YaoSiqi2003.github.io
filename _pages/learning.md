@@ -13,6 +13,12 @@ author_profile: true
 <!--  
  <p><strong>2025.9.16</strong>: Brief survey on using LLM agents for medical data cleaning: <a href="/notes/Survey on LLM agents for medical data cleaning.pdf">report</a>.</p> -->
 
+
+
+<p><strong>10.20</strong>: Reading notes on Distributionally Robust RL and Optimization: <a href="/notes/DR-RL & DRO.pdf">slides</a>.</p>
+
+ 
+
 <p><strong>10.17</strong>: Reading notes on contextual bandits for LLM routing: <a href="/notes/Contexual_bandits_for_LLM_routing_problems.pdf">slides</a>.</p>
 
 
