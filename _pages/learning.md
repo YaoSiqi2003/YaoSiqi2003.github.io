@@ -38,7 +38,7 @@ author_profile: true
   -->
 
 
-<p><strong>4.30</strong>: Notes on coding theory can be found <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
+<p><strong>4.30</strong>: Notes on coding theory: <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
 
 <p><strong>1.2</strong>: Brief discussion on the paper 'Learning to Optimize for Mixed-Integer Non-linear Programming' by Tang et al.: <a href="/notes/MINLP_Presentation.pdf">slides</a>.</p> 
  
