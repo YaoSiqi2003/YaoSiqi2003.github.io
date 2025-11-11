@@ -15,6 +15,9 @@ author_profile: true
 
 
 
+
+<p><strong>11.11</strong>: Notes on ordinary differential equations: <a href="/notes/ODE Notes (I).pdf">here</a>.</p>
+
 <p><strong>10.20</strong>: Reading notes on Distributionally Robust RL and Optimization: <a href="/notes/DR-RL & DRO.pdf">slides</a>.</p>
 
  
