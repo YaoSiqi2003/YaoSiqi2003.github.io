@@ -1,7 +1,7 @@
 ---
 permalink: /learning/
-title: "Learning Notes"
-excerpt: "Learning Notes"
+title: "Learning"
+excerpt: "Learning"
 author_profile: true
 ---
 
@@ -21,6 +21,8 @@ author_profile: true
  
 
 
+
+<p><strong>12.8</strong>: Simulating dambreak problem with material point method: <a href="https://github.com/YaoSiqi2003/MPM-Dambreak">here</a>.</p>
 
 <p><strong>11.11</strong>: Notes on ordinary differential equations: <a href="/notes/ODE Notes (I).pdf">here</a>.</p>
 
