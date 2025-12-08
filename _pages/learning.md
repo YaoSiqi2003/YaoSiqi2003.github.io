@@ -5,14 +5,20 @@ excerpt: "Learning Notes"
 author_profile: true
 ---
 
+
+
+
+
+
+
+
+##  2026
+ 
+
+
 ##  2025
  
-<!--  
- <p><strong>2025.9.16</strong>: Research Proposal on using LLM agents for medical data cleaning: <a href="/notes/Research Proposal LLM agents for medical data cleaning.pdf">report</a>.</p>  -->
-
-<!--  
- <p><strong>2025.9.16</strong>: Brief survey on using LLM agents for medical data cleaning: <a href="/notes/Survey on LLM agents for medical data cleaning.pdf">report</a>.</p> -->
-
+ 
 
 
 
@@ -42,6 +48,4 @@ author_profile: true
 
 
 <p><strong>4.30</strong>: Notes on coding theory: <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
-
-<!-- <p><strong>1.2</strong>: Brief discussion on the paper 'Learning to Optimize for Mixed-Integer Non-linear Programming' by Tang et al.: <a href="/notes/MINLP_Presentation.pdf">slides</a>.</p> 
-  -->
+ 
