@@ -20,9 +20,10 @@ author_profile: true
  
  
 
+<p><strong>12.23</strong>: Simulating object floating with MPM: <a href="https://github.com/YaoSiqi2003/MPM-Object-Float">here</a>.</p>
 
 
-<p><strong>12.8</strong>: Simulating dambreak problem with material point method: <a href="https://github.com/YaoSiqi2003/MPM-Dambreak">here</a>.</p>
+<p><strong>12.8</strong>: Simulating dambreak problem with MPM (Material Point Method): <a href="https://github.com/YaoSiqi2003/MPM-Dambreak">here</a>.</p>
 
 <p><strong>11.11</strong>: Notes on ordinary differential equations: <a href="/notes/ODE Notes (I).pdf">here</a>.</p>
 
