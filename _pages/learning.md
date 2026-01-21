@@ -50,5 +50,5 @@ author_profile: true
   -->
 
 
-<p><strong>4.30</strong>: Notes on coding theory: <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p>
+<!-- <p><strong>4.30</strong>: Notes on coding theory: <a href="https://github.com/YaoSiqi2003/Notes-on-coding-theory">here</a>.</p> -->
  
