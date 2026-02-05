@@ -14,20 +14,21 @@ author_profile: true
 
 ##  2026
  
+
+<p><strong>2.5</strong>: Notes on ordinary differential equations: <a href="/notes/ODE_Notes.pdf">here</a>.</p>
+
+
 <p><strong>1.23</strong>: Reading notes on the paper 'IQ-MPM: An Interface Quadrature Material Point Method for Non-sticky Strongly Two-way Coupled Nonlinear Solids and Fluids' by Fang et al.: <a href="/notes/MPM_presentation.pdf">slides</a>.</p>
 
  
 
 ##  2025
  
- 
-
-<!-- <p><strong>12.23</strong>: Simulating object floating with MPM: <a href="https://github.com/YaoSiqi2003/MPM-Object-Float">here</a>.</p> -->
-
+  
 
 <p><strong>12.8</strong>: Simulating dambreak problem with MPM (Material Point Method): <a href="https://github.com/YaoSiqi2003/MPM-Dambreak">here</a>.</p>
 
-<p><strong>11.11</strong>: Notes on ordinary differential equations: <a href="/notes/ODE Notes (I).pdf">here</a>.</p>
+
 
 <p><strong>10.20</strong>: Reading notes on distributionally robust reinforcement learning and optimization: <a href="/notes/DR-RL & DRO.pdf">slides</a>.</p>
 
