@@ -14,6 +14,9 @@ author_profile: true
 
 ##  2026
  
+<p><strong>5.13</strong>: Notes on partial differential equations: in progress.</p>
+
+
 
 <p><strong>2.5</strong>: Notes on ordinary differential equations: <a href="/notes/ODE_Notes.pdf">here</a>.</p>
 
