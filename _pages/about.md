@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-<p>I am an undergraduate student in <a href="https://sds.cuhk.edu.cn/en">School of Data Science, The Chinese University of Hong Kong, Shenzhen</a>. My research interest lies in AI and machine learning, including their theories and real-world applications. Here is my <a href="/files1/CV.pdf">CV</a>.</p>  
+<p>I am an incoming Ph.D. student at <a href="https://www.math.hkust.edu.hk/">Department of Mathematics, Hong Kong University of Science and Technology</a>, supervised by Prof. <a href="https://www.math.hkust.edu.hk/people/faculty/profile/maxiang/#begin">Xiang Yang</a>. I obtained my B.Sc. degree from <a href="https://sds.cuhk.edu.cn/en">School of Data Science, The Chinese University of Hong Kong, Shenzhen</a>. My main research interests lie in AI for Science, especially its applications in materials science and fluid simulation. Here is my <a href="/files1/CV.pdf">CV</a>.</p>  
 
  
  
 
 ## News
 
-<!-- New paper! See <a href="https://arxiv.org/abs/2510.02071">here</a>. -->
+ 
 
 
