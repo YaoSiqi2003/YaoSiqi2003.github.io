@@ -13,6 +13,11 @@ author_profile: true
 
 
 ##  2026
+
+
+
+<p><strong>7.18</strong>: Summary on policy optimization methods: in progress.</p>
+
  
 <p><strong>5.13</strong>: Notes on partial differential equations: in progress.</p>
 
