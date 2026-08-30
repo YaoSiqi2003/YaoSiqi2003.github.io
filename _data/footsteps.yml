@@ -17,7 +17,7 @@
   lng: 114.2633
   period: 2026–
   kind: lived
-  note: Incoming Ph.D. student in Mathematics.
+  note: Ph.D. student in Mathematics.
   url: https://www.hkust.edu.hk/
 
 - id: uc-berkeley
@@ -33,10 +33,14 @@
   name: New York
   lat: 40.7128
   lng: -74.0060
+  period: Nov 2024
   kind: visited
+  note: Travel.
 
 - id: san-francisco
   name: San Francisco
   lat: 37.7749
   lng: -122.4194
+  period: Fall 2024
   kind: visited
+  note: Travel.
