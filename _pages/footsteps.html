@@ -12,9 +12,21 @@ excerpt: "Places I have lived and visited."
 <div class="footsteps-page">
   <h1 class="visually-hidden">{{ page.title }}</h1>
   <div id="footsteps-map" class="footsteps-map" role="region" aria-label="Map of places I have lived and visited"></div>
-  <div class="footsteps-hud">
-    <p class="footsteps-hud__count" id="footsteps-count"></p>
-    <button type="button" class="footsteps-hud__reset" id="footsteps-reset">Reset view</button>
+  <div class="footsteps-overlay">
+    <div class="footsteps-hud">
+      <p class="footsteps-hud__count" id="footsteps-count"></p>
+      <button type="button" class="footsteps-hud__reset" id="footsteps-reset">Reset view</button>
+    </div>
+    <ul class="footsteps-legend" aria-label="Legend">
+      <li class="footsteps-legend__item">
+        <span class="footsteps-legend__dot footsteps-legend__dot--lived" aria-hidden="true"></span>
+        Lived
+      </li>
+      <li class="footsteps-legend__item">
+        <span class="footsteps-legend__dot footsteps-legend__dot--visited" aria-hidden="true"></span>
+        Visited
+      </li>
+    </ul>
   </div>
 </div>
 
