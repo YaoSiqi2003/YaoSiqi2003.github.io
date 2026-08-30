@@ -1,0 +1,42 @@
+# Places shown on /footsteps/. Any point is fine — campus, city, building, trailhead —
+# as long as it has a name and decimal-degree lat/lng. kind: lived | visited
+# Optional: period, note, photo (e.g. /images/footsteps/foo.jpg), url
+
+- id: cuhk-sz
+  name: CUHK-Shenzhen
+  lat: 22.6575
+  lng: 114.2086
+  period: 2022–2026
+  kind: lived
+  note: B.Sc. in Data Science and Big Data Technology.
+  url: https://www.cuhk.edu.cn/en
+
+- id: hkust
+  name: HKUST
+  lat: 22.3375
+  lng: 114.2633
+  period: 2026–
+  kind: lived
+  note: Incoming Ph.D. student in Mathematics.
+  url: https://www.hkust.edu.hk/
+
+- id: uc-berkeley
+  name: UC Berkeley
+  lat: 37.8719
+  lng: -122.2585
+  period: Aug–Dec 2024
+  kind: lived
+  note: Visiting student, Berkeley Global Access Program.
+  url: https://www.berkeley.edu/
+
+- id: new-york
+  name: New York
+  lat: 40.7128
+  lng: -74.0060
+  kind: visited
+
+- id: san-francisco
+  name: San Francisco
+  lat: 37.7749
+  lng: -122.4194
+  kind: visited

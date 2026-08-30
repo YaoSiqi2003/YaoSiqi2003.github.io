@@ -1,0 +1,191 @@
+/* Footsteps map page */
+
+.footsteps-page {
+  position: relative;
+}
+
+.footsteps-map {
+  width: 100%;
+  height: calc(100vh - 4.75rem);
+  min-height: 28rem;
+  z-index: 1;
+}
+
+.footsteps-hud {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.4rem 0.7rem;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid $border-color;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
+  line-height: 1.2;
+}
+
+.footsteps-hud__count {
+  margin: 0;
+  color: $dark-gray;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.footsteps-hud__reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: $info-color;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.leaflet-container {
+  font-family: $global-font-family;
+  background: $lighter-gray;
+}
+
+.footsteps-popup {
+  min-width: 10rem;
+}
+
+.footsteps-popup__title {
+  margin: 0 0 0.2rem;
+  font-family: $header-font-family;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.footsteps-popup__period {
+  margin: 0 0 0.35rem;
+  color: $gray;
+  font-size: $type-size-6;
+}
+
+.footsteps-popup__note {
+  margin: 0;
+  font-size: $type-size-6;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 2px;
+}
+
+.leaflet-popup-content {
+  margin: 0.85rem 1rem 0.95rem;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+}
+
+.leaflet-tooltip.footsteps-hover {
+  padding: 0.85rem 1rem 0.95rem;
+  background: #fff;
+  color: $text-color;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+  white-space: normal;
+  max-width: 280px;
+}
+
+.leaflet-tooltip-top.footsteps-hover::before {
+  border-top-color: #fff;
+}
+
+.footsteps-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(28, 28, 28, 0.78);
+}
+
+.footsteps-lightbox[hidden] {
+  display: none !important;
+}
+
+.footsteps-lightbox__frame {
+  width: min(1080px, 94vw);
+  background: #fff;
+}
+
+.footsteps-lightbox__stage {
+  position: relative;
+  width: 100%;
+  height: min(72vh, 620px);
+  background: #2c2c2c;
+}
+
+.footsteps-lightbox__blank,
+.footsteps-lightbox__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footsteps-lightbox__image[hidden],
+.footsteps-lightbox__blank[hidden],
+.footsteps-lightbox__text[hidden] {
+  display: none !important;
+}
+
+.footsteps-lightbox__blank {
+  background: #6a6a6a;
+}
+
+.footsteps-lightbox__image {
+  object-fit: contain;
+  background: #1a1a1a;
+}
+
+.footsteps-lightbox__close {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  color: #222;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.footsteps-lightbox__caption {
+  padding: 1rem 1.35rem 1.2rem;
+  background: #fff;
+}
+
+.footsteps-lightbox__title {
+  margin: 0 0 0.3rem;
+  font-family: $header-font-family;
+  font-size: 1.35rem;
+  line-height: 1.3;
+  color: $darker-gray;
+}
+
+.footsteps-lightbox__text {
+  margin: 0;
+  color: $gray;
+  font-size: $type-size-5;
+}

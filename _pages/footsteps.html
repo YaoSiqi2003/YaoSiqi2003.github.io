@@ -1,0 +1,37 @@
+---
+layout: default
+title: Footsteps
+permalink: /footsteps/
+author_profile: false
+map: true
+excerpt: "Places I have lived and visited."
+---
+
+{% include base_path %}
+
+<div class="footsteps-page">
+  <h1 class="visually-hidden">{{ page.title }}</h1>
+  <div id="footsteps-map" class="footsteps-map" role="region" aria-label="Map of places I have lived and visited"></div>
+  <div class="footsteps-hud">
+    <p class="footsteps-hud__count" id="footsteps-count"></p>
+    <button type="button" class="footsteps-hud__reset" id="footsteps-reset">Reset view</button>
+  </div>
+</div>
+
+<div id="footsteps-lightbox" class="footsteps-lightbox" hidden>
+  <div class="footsteps-lightbox__frame" role="dialog" aria-modal="true" aria-labelledby="footsteps-lightbox-title">
+    <div class="footsteps-lightbox__stage">
+      <img id="footsteps-lightbox-image" class="footsteps-lightbox__image" alt="">
+      <div id="footsteps-lightbox-blank" class="footsteps-lightbox__blank"></div>
+      <button type="button" class="footsteps-lightbox__close" id="footsteps-lightbox-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="footsteps-lightbox__caption">
+      <h2 id="footsteps-lightbox-title" class="footsteps-lightbox__title"></h2>
+      <p id="footsteps-lightbox-text" class="footsteps-lightbox__text"></p>
+    </div>
+  </div>
+</div>
+
+<pre id="footsteps-data" class="visually-hidden" aria-hidden="true">{{ site.data.footsteps | jsonify }}</pre>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{{ base_path }}/assets/js/footsteps.js"></script>
