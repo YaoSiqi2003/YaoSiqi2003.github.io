@@ -47,3 +47,11 @@
   period: Fall 2024
   kind: visited
   note: Travel.
+
+- id: huangshan
+  name: Huangshan（黄山）
+  lat: 30.1410
+  lng: 118.1652
+  period: Jul 2024
+  kind: visited
+  note: Travel.
