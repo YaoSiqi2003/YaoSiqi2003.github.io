@@ -164,8 +164,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
-  background: rgba(28, 28, 28, 0.78);
+  padding: 2.5vh 2.5vw;
+  background: rgba(90, 90, 90, 0.45);
 }
 
 .footsteps-lightbox[hidden] {
@@ -173,22 +173,61 @@
 }
 
 .footsteps-lightbox__frame {
-  width: min(1080px, 94vw);
+  width: min(94vw, 1760px);
+  height: min(94vh, 1080px);
+  max-height: 94vh;
+  display: flex;
+  flex-direction: column;
   background: #fff;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.28);
 }
 
 .footsteps-lightbox__stage {
   position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
   width: 100%;
-  height: min(72vh, 620px);
-  background: #2c2c2c;
+  height: auto;
+  background: #0b1220;
+  overflow: hidden;
 }
 
-.footsteps-lightbox__blank,
+.footsteps-lightbox__viewport {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  touch-action: none;
+  cursor: zoom-in;
+}
+
+.footsteps-lightbox__viewport.is-zoomed {
+  cursor: grab;
+}
+
+.footsteps-lightbox__viewport.is-panning {
+  cursor: grabbing;
+}
+
+.footsteps-lightbox__blank {
+  position: absolute;
+  inset: 0;
+  background: #6a6a6a;
+}
+
 .footsteps-lightbox__image {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: none !important;
+  max-height: none !important;
+  transform-origin: 0 0;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
 }
 
 .footsteps-lightbox__image[hidden],
@@ -197,19 +236,47 @@
   display: none !important;
 }
 
-.footsteps-lightbox__blank {
-  background: #6a6a6a;
+.footsteps-lightbox__nav {
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.35rem;
+  height: 3.35rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #e6e8eb;
+  color: #2a2a2a;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.28);
+  transform: translateY(-50%);
+  cursor: pointer;
+
+  svg {
+    width: 1.35rem;
+    height: 1.35rem;
+  }
+
+  &:hover {
+    background: #f2f3f5;
+  }
 }
 
-.footsteps-lightbox__image {
-  object-fit: contain;
-  background: #1a1a1a;
+.footsteps-lightbox__nav--prev {
+  left: 0.9rem;
+}
+
+.footsteps-lightbox__nav--next {
+  right: 0.9rem;
 }
 
 .footsteps-lightbox__close {
   position: absolute;
   top: 0.85rem;
   right: 0.85rem;
+  z-index: 4;
   width: 2.25rem;
   height: 2.25rem;
   padding: 0;
@@ -223,6 +290,7 @@
 }
 
 .footsteps-lightbox__caption {
+  flex: 0 0 auto;
   padding: 1rem 1.35rem 1.2rem;
   background: #fff;
 }

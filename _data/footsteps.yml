@@ -1,6 +1,6 @@
 # Places shown on /footsteps/. Any point is fine — campus, city, building, trailhead —
 # as long as it has a name and decimal-degree lat/lng. kind: lived | visited
-# Optional: period, note, photo (e.g. /images/footsteps/foo.jpg), url
+# Optional: period, note, photo, photos (list of {src, caption}), url
 
 - id: cuhk-sz
   name: CUHK-Shenzhen
@@ -36,6 +36,9 @@
   period: Nov 2024
   kind: visited
   note: Travel.
+  photos:
+    - src: /photos/new_york/IMG_7692.JPG
+      caption: Overlooking the city.
 
 - id: san-francisco
   name: San Francisco

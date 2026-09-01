@@ -33,8 +33,16 @@ excerpt: "Places I have lived and visited."
 <div id="footsteps-lightbox" class="footsteps-lightbox" hidden>
   <div class="footsteps-lightbox__frame" role="dialog" aria-modal="true" aria-labelledby="footsteps-lightbox-title">
     <div class="footsteps-lightbox__stage">
-      <img id="footsteps-lightbox-image" class="footsteps-lightbox__image" alt="">
+      <div id="footsteps-lightbox-viewport" class="footsteps-lightbox__viewport">
+        <img id="footsteps-lightbox-image" class="footsteps-lightbox__image" alt="" draggable="false">
+      </div>
       <div id="footsteps-lightbox-blank" class="footsteps-lightbox__blank"></div>
+      <button type="button" class="footsteps-lightbox__nav footsteps-lightbox__nav--prev" id="footsteps-lightbox-prev" aria-label="Previous photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 6L9 12l5.5 6" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" class="footsteps-lightbox__nav footsteps-lightbox__nav--next" id="footsteps-lightbox-next" aria-label="Next photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.5 6L15 12l-5.5 6" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
       <button type="button" class="footsteps-lightbox__close" id="footsteps-lightbox-close" aria-label="Close">&times;</button>
     </div>
     <div class="footsteps-lightbox__caption">

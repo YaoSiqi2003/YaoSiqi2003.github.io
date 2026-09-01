@@ -70,42 +70,169 @@
   }
 
   var lightbox = document.getElementById("footsteps-lightbox");
+  var lightboxViewport = document.getElementById("footsteps-lightbox-viewport");
   var lightboxImage = document.getElementById("footsteps-lightbox-image");
   var lightboxBlank = document.getElementById("footsteps-lightbox-blank");
   var lightboxTitle = document.getElementById("footsteps-lightbox-title");
   var lightboxText = document.getElementById("footsteps-lightbox-text");
+  var gallery = [];
+  var galleryIndex = 0;
+  var galleryPlace = null;
+  var loadToken = 0;
+  var view = { scale: 1, x: 0, y: 0, min: 1, max: 8 };
+  var pointers = {};
+  var pinch = null;
+  var pan = null;
+
+  function isLightboxOpen() {
+    return lightbox && !lightbox.hidden;
+  }
+
+  function getPhotos(place) {
+    var list = [];
+    function add(src, caption) {
+      if (src && isSafeUrl(src)) {
+        list.push({ src: src, caption: caption || "" });
+      }
+    }
+    if (place && Array.isArray(place.photos)) {
+      place.photos.forEach(function (item) {
+        if (typeof item === "string") add(item, "");
+        else if (item && item.src) add(item.src, item.caption);
+      });
+    }
+    if (!list.length && place && place.photo) add(place.photo, "");
+    return list;
+  }
+
+  function applyView() {
+    if (!lightboxImage) return;
+    lightboxImage.style.transform =
+      "translate(" + view.x + "px," + view.y + "px) scale(" + view.scale + ")";
+    if (lightboxViewport) {
+      lightboxViewport.classList.toggle("is-zoomed", view.scale > view.min + 0.001);
+    }
+  }
+
+  function clampPan() {
+    if (!lightboxViewport || !lightboxImage) return;
+    var nw = lightboxImage.naturalWidth;
+    var nh = lightboxImage.naturalHeight;
+    if (!nw || !nh) return;
+    var vw = lightboxViewport.clientWidth;
+    var vh = lightboxViewport.clientHeight;
+    var dw = nw * view.scale;
+    var dh = nh * view.scale;
+    if (dw <= vw) view.x = (vw - dw) / 2;
+    else view.x = Math.min(0, Math.max(vw - dw, view.x));
+    if (dh <= vh) view.y = (vh - dh) / 2;
+    else view.y = Math.min(0, Math.max(vh - dh, view.y));
+  }
+
+  function fitView() {
+    if (!lightboxViewport || !lightboxImage) return;
+    var nw = lightboxImage.naturalWidth;
+    var nh = lightboxImage.naturalHeight;
+    var vw = lightboxViewport.clientWidth;
+    var vh = lightboxViewport.clientHeight;
+    if (!nw || !nh || !vw || !vh) return;
+    view.min = Math.min(vw / nw, vh / nh);
+    view.max = view.min * 8;
+    view.scale = view.min;
+    view.x = (vw - nw * view.scale) / 2;
+    view.y = (vh - nh * view.scale) / 2;
+    applyView();
+  }
+
+  function zoomAt(clientX, clientY, nextScale) {
+    if (!lightboxViewport) return;
+    var rect = lightboxViewport.getBoundingClientRect();
+    var mx = clientX - rect.left;
+    var my = clientY - rect.top;
+    nextScale = Math.max(view.min, Math.min(view.max, nextScale));
+    var ratio = nextScale / view.scale;
+    view.x = mx - (mx - view.x) * ratio;
+    view.y = my - (my - view.y) * ratio;
+    view.scale = nextScale;
+    if (view.scale <= view.min + 0.001) {
+      fitView();
+      return;
+    }
+    clampPan();
+    applyView();
+  }
+
+  function setCaption(text) {
+    if (!lightboxText) return;
+    lightboxText.textContent = text || "";
+    lightboxText.hidden = !text;
+  }
+
+  function showSlide() {
+    var token = ++loadToken;
+    var place = galleryPlace || {};
+    if (!gallery.length) {
+      if (lightboxImage) {
+        lightboxImage.hidden = true;
+        lightboxImage.removeAttribute("src");
+        lightboxImage.style.transform = "";
+      }
+      if (lightboxBlank) lightboxBlank.hidden = false;
+      setCaption(place.note || "");
+      return;
+    }
+
+    var item = gallery[galleryIndex];
+    if (lightboxBlank) lightboxBlank.hidden = true;
+    if (!lightboxImage) return;
+    lightboxImage.hidden = false;
+    lightboxImage.alt = item.caption || place.name || "";
+    setCaption(item.caption || place.note || "");
+
+    function onReady() {
+      if (token !== loadToken) return;
+      fitView();
+    }
+
+    if (lightboxImage.getAttribute("src") === item.src && lightboxImage.complete && lightboxImage.naturalWidth) {
+      onReady();
+      return;
+    }
+    lightboxImage.onload = onReady;
+    lightboxImage.src = item.src;
+  }
+
+  function stepGallery(dir) {
+    if (!gallery.length) return;
+    galleryIndex = (galleryIndex + dir + gallery.length) % gallery.length;
+    showSlide();
+  }
 
   function closeLightbox() {
     if (!lightbox) return;
     lightbox.hidden = true;
     document.body.style.overflow = "";
+    pointers = {};
+    pinch = null;
+    pan = null;
+    if (lightboxViewport) lightboxViewport.classList.remove("is-zoomed", "is-panning");
     if (lightboxImage) {
+      lightboxImage.onload = null;
       lightboxImage.removeAttribute("src");
       lightboxImage.hidden = true;
+      lightboxImage.style.transform = "";
     }
   }
 
   function openLightbox(place) {
     if (!lightbox) return;
-    lightboxTitle.textContent = place.name || "Untitled place";
-    lightboxText.textContent = place.note || "";
-    lightboxText.hidden = !place.note;
-
-    var hasPhoto = place.photo && isSafeUrl(place.photo);
-    if (hasPhoto) {
-      lightboxImage.hidden = false;
-      lightboxImage.src = place.photo;
-      lightboxImage.alt = place.name || "";
-      lightboxBlank.hidden = true;
-    } else {
-      lightboxImage.hidden = true;
-      lightboxImage.removeAttribute("src");
-      lightboxImage.alt = "";
-      lightboxBlank.hidden = false;
-    }
-
+    galleryPlace = place || {};
+    gallery = getPhotos(galleryPlace);
+    galleryIndex = 0;
+    if (lightboxTitle) lightboxTitle.textContent = galleryPlace.name || "Untitled place";
     lightbox.hidden = false;
     document.body.style.overflow = "hidden";
+    showSlide();
   }
 
   if (lightbox) {
@@ -117,8 +244,122 @@
   if (lightboxClose) {
     lightboxClose.addEventListener("click", closeLightbox);
   }
+  var lightboxPrev = document.getElementById("footsteps-lightbox-prev");
+  var lightboxNext = document.getElementById("footsteps-lightbox-next");
+  if (lightboxPrev) {
+    lightboxPrev.addEventListener("click", function (event) {
+      event.stopPropagation();
+      stepGallery(-1);
+    });
+  }
+  if (lightboxNext) {
+    lightboxNext.addEventListener("click", function (event) {
+      event.stopPropagation();
+      stepGallery(1);
+    });
+  }
+
   document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape" && lightbox && !lightbox.hidden) closeLightbox();
+    if (!isLightboxOpen()) return;
+    if (event.key === "Escape") closeLightbox();
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      stepGallery(-1);
+    }
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      stepGallery(1);
+    }
+  });
+
+  if (lightboxViewport) {
+    lightboxViewport.addEventListener("wheel", function (event) {
+      if (!isLightboxOpen() || lightboxImage.hidden) return;
+      event.preventDefault();
+      var factor = event.deltaY < 0 ? 1.12 : 1 / 1.12;
+      zoomAt(event.clientX, event.clientY, view.scale * factor);
+    }, { passive: false });
+
+    lightboxViewport.addEventListener("dblclick", function (event) {
+      if (!isLightboxOpen() || lightboxImage.hidden) return;
+      event.preventDefault();
+      if (view.scale > view.min + 0.001) fitView();
+      else zoomAt(event.clientX, event.clientY, view.min * 2.6);
+    });
+
+    lightboxViewport.addEventListener("pointerdown", function (event) {
+      if (!isLightboxOpen() || lightboxImage.hidden) return;
+      lightboxViewport.setPointerCapture(event.pointerId);
+      pointers[event.pointerId] = { x: event.clientX, y: event.clientY };
+      var ids = Object.keys(pointers);
+      if (ids.length === 2) {
+        var a = pointers[ids[0]];
+        var b = pointers[ids[1]];
+        var dx = a.x - b.x;
+        var dy = a.y - b.y;
+        pinch = {
+          dist: Math.sqrt(dx * dx + dy * dy) || 1,
+          scale: view.scale,
+          midX: (a.x + b.x) / 2,
+          midY: (a.y + b.y) / 2
+        };
+        pan = null;
+      } else if (ids.length === 1 && view.scale > view.min + 0.001) {
+        pan = { x: event.clientX, y: event.clientY, ox: view.x, oy: view.y };
+        lightboxViewport.classList.add("is-panning");
+      }
+    });
+
+    lightboxViewport.addEventListener("pointermove", function (event) {
+      if (!pointers[event.pointerId]) return;
+      pointers[event.pointerId] = { x: event.clientX, y: event.clientY };
+      var ids = Object.keys(pointers);
+      if (pinch && ids.length >= 2) {
+        var a = pointers[ids[0]];
+        var b = pointers[ids[1]];
+        var dx = a.x - b.x;
+        var dy = a.y - b.y;
+        var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        zoomAt(pinch.midX, pinch.midY, pinch.scale * (dist / pinch.dist));
+        return;
+      }
+      if (pan && ids.length === 1) {
+        view.x = pan.ox + (event.clientX - pan.x);
+        view.y = pan.oy + (event.clientY - pan.y);
+        clampPan();
+        applyView();
+      }
+    });
+
+    function endPointer(event) {
+      delete pointers[event.pointerId];
+      if (Object.keys(pointers).length < 2) pinch = null;
+      if (Object.keys(pointers).length === 0) {
+        pan = null;
+        lightboxViewport.classList.remove("is-panning");
+      }
+    }
+
+    lightboxViewport.addEventListener("pointerup", endPointer);
+    lightboxViewport.addEventListener("pointercancel", endPointer);
+  }
+
+  window.addEventListener("resize", function () {
+    if (!isLightboxOpen() || !lightboxImage || lightboxImage.hidden) return;
+    var wasFit = view.scale <= view.min + 0.001;
+    if (wasFit) fitView();
+    else {
+      var nw = lightboxImage.naturalWidth;
+      var nh = lightboxImage.naturalHeight;
+      var vw = lightboxViewport.clientWidth;
+      var vh = lightboxViewport.clientHeight;
+      if (!nw || !nh || !vw || !vh) return;
+      view.min = Math.min(vw / nw, vh / nh);
+      view.max = view.min * 8;
+      if (view.scale < view.min) view.scale = view.min;
+      clampPan();
+      applyView();
+    }
   });
 
   function circleStyle(kind) {
