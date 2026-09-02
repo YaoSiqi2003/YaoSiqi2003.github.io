@@ -28,6 +28,9 @@
   kind: lived
   note: Visiting student, Berkeley Global Access Program.
   url: https://www.berkeley.edu/
+  photos:
+    - src: /photos/berkeley/IMG_6641.JPG
+      caption: Sunset.
 
 - id: new-york
   name: New York
