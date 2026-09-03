@@ -50,6 +50,8 @@
   period: Fall 2024
   kind: visited
   note: Travel.
+  photos:
+    - src: /photos/sanfrancisco/IMG_5099.JPG
 
 - id: huangshan
   name: Huangshan（黄山）
@@ -63,3 +65,15 @@
     - src: /photos/huangshan/2.jpg
     - src: /photos/huangshan/3.jpg
     - src: /photos/huangshan/4.jpg
+
+- id: golden-bauhinia-square
+  name: Golden Bauhinia Square（金紫荆广场）
+  lat: 22.2843
+  lng: 114.1738
+  period: Aug 2026
+  kind: visited
+  note: Visit.
+  photos:
+    - src: /photos/bauhinia_square/1.png
+    - src: /photos/bauhinia_square/2.png
+    - src: /photos/bauhinia_square/3.png
