@@ -87,3 +87,12 @@
   photos:
     - src: /photos/hongkongpark/1.png
     - src: /photos/hongkongpark/2.png
+
+- id: quarry-bay
+  name: Quarry Bay（鰂魚涌）
+  lat: 22.2904
+  lng: 114.2144
+  kind: visited
+  note: Visit.
+  photos:
+    - src: /photos/quarrybay/1.jpg
