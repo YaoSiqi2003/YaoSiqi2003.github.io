@@ -15,6 +15,13 @@ author_profile: true
 ##  2026
 
 
+
+
+<p><strong>10.3</strong>: Reading notes on AI agents in CFD: <a href="/notes/ai_agents_in_CFD.pdf">slides</a>.</p>
+
+
+
+
 <!-- 
 <p><strong>7.18</strong>: Summary on policy optimization methods: in progress.</p>
 
