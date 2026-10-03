@@ -17,7 +17,7 @@ author_profile: true
 
 
 
-<p><strong>10.3</strong>: Reading notes on AI agents in CFD: <a href="/notes/ai_agents_in_CFD.pdf">slides</a>.</p>
+<p><strong>10.3</strong>: Reading notes on AI agents in CFD: <a href="https://drive.google.com/drive/folders/1KSPZvq-9xSAlxf1AziI6Zu54vBHUixhw?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto">slides</a>.</p>
 
 
 
