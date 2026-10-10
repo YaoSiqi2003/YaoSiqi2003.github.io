@@ -14,7 +14,7 @@ author_profile: true
 
 ##  2026
 
-
+<p><strong>10.10</strong>: Reading notes on AI agents in Material Science (I): <a href="/notes/AI Agents for Phase-Field Simulation and Multitask Materials Science.pdf">slides</a>.</p>
 
 
 <p><strong>10.3</strong>: Reading notes on AI agents in CFD: <a href="/notes/AI_Agents_in_CFD.pdf">slides</a>.</p>
