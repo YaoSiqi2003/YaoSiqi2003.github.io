@@ -55,6 +55,94 @@
     border-bottom: 1px solid $border-color;
   }
 
+  .learning-section {
+    margin-top: 1.75em;
+    interpolate-size: allow-keywords;
+
+    > summary {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      margin: 0;
+      padding: 0.2em 0.15em 0.55em;
+      list-style: none;
+      cursor: pointer;
+      border-bottom: 1px solid $border-color;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::marker {
+        content: "";
+      }
+
+      &::before {
+        content: "";
+        flex: 0 0 auto;
+        width: 0.45em;
+        height: 0.45em;
+        margin-top: -0.15em;
+        border-right: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
+        transform: rotate(-45deg);
+        transition: transform 0.2s ease;
+      }
+
+      &:hover {
+        color: $link-color;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &:focus-visible {
+        outline: 2px solid $link-color;
+        outline-offset: 3px;
+      }
+
+      h2 {
+        flex: 1;
+        margin: 0;
+        padding: 0;
+        border-bottom: 0;
+      }
+    }
+
+    &[open] > summary::before {
+      transform: rotate(45deg);
+    }
+
+    &__body {
+      padding-top: 0.9em;
+    }
+
+    &::details-content {
+      height: 0;
+      overflow: hidden;
+      transition: height 0.28s ease, content-visibility 0.28s ease allow-discrete;
+    }
+
+    &[open]::details-content {
+      height: auto;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .learning-section > summary::before,
+    .learning-section::details-content {
+      transition: none;
+    }
+  }
+
+  @media print {
+    .learning-section::details-content {
+      height: auto !important;
+      content-visibility: visible !important;
+    }
+  }
+
   p, li, dl {
     font-size: 1em;
   }

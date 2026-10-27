@@ -1,4 +1,8 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if page.path == "_pages/learning.md" %}
+  <script src="{{ base_path }}/assets/js/learning-accordion.js"></script>
+{% endif %}
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

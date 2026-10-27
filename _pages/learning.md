@@ -37,7 +37,7 @@ author_profile: true
 <p><strong>2025.12.8</strong>: Simulating dambreak problem with MPM (Material Point Method): <a href="https://github.com/YaoSiqi2003/MPM-Dambreak">here</a>.</p>
 
 
- ##  AI Algorithms
+##  AI Algorithms
 
 <p><strong>2025.7.13</strong>: Summary on rectified flow and stochastic interpolation: <a href="/notes/Rectified_flow_stochastic_interpolation.pdf">slides</a>.</p>
 
@@ -46,14 +46,14 @@ author_profile: true
 <p><strong>2025.5.22</strong>: Reading notes on the paper 'Energy based diffusion generator for efficient sampling of Boltzmann distributions' by Wang et al.: <a href="/notes/energy_based_diffusion.pdf">slides</a>.</p>
 
 
- ##  Quantum Computation
+##  Quantum Computation
 
 <p><strong>2025.8.9</strong>: Short notes on capacity measures and additivity: <a href="/notes/Short_notes_on_capacity_measures_and_additivity.pdf">slides</a>.</p>
 
 <p><strong>2025.8.5</strong>: Notes on quantum SWITCH and communication enhancement: <a href="/notes/Quantum_SWITCH_for_Communication_Enhancement.pdf">slides</a>.</p>
 
 
- ##  Others
+##  Others
 
 
 <p><strong>2025.10.20</strong>: Reading notes on distributionally robust reinforcement learning and optimization: <a href="/notes/DR-RL & DRO.pdf">slides</a>.</p>
