@@ -13,6 +13,10 @@
     details.open = true;
 
     var summary = document.createElement("summary");
+    summary.className = "learning-section__summary";
+    var chevron = document.createElement("span");
+    chevron.className = "learning-section__chevron";
+    chevron.setAttribute("aria-hidden", "true");
     var body = document.createElement("div");
     body.className = "learning-section__body";
 
@@ -23,6 +27,7 @@
       sibling = next;
     }
 
+    heading.insertBefore(chevron, heading.firstChild);
     heading.parentNode.insertBefore(details, heading);
     summary.appendChild(heading);
     details.appendChild(summary);

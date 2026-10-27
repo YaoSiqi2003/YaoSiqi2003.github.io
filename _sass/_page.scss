@@ -60,33 +60,20 @@
     interpolate-size: allow-keywords;
 
     > summary {
-      display: flex;
-      align-items: center;
-      gap: 0.7rem;
+      display: block;
       margin: 0;
-      padding: 0.2em 0.15em 0.55em;
+      padding: 0;
       list-style: none;
       cursor: pointer;
-      border-bottom: 1px solid $border-color;
+      appearance: none;
 
       &::-webkit-details-marker {
         display: none;
       }
 
       &::marker {
-        content: "";
-      }
-
-      &::before {
-        content: "";
-        flex: 0 0 auto;
-        width: 0.45em;
-        height: 0.45em;
-        margin-top: -0.15em;
-        border-right: 2px solid currentColor;
-        border-bottom: 2px solid currentColor;
-        transform: rotate(-45deg);
-        transition: transform 0.2s ease;
+        content: none;
+        display: none;
       }
 
       &:hover {
@@ -103,14 +90,29 @@
       }
 
       h2 {
-        flex: 1;
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        border-bottom: 0;
+        padding: 0 0 0.5em;
+        border-bottom: 1px solid $border-color;
       }
     }
 
-    &[open] > summary::before {
+    &__chevron {
+      display: inline-block;
+      flex: 0 0 auto;
+      width: 0.45em;
+      height: 0.45em;
+      margin-top: -0.12em;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      transform: rotate(-45deg);
+      transition: transform 0.2s ease;
+    }
+
+    &[open] .learning-section__chevron {
       transform: rotate(45deg);
     }
 
@@ -130,7 +132,7 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .learning-section > summary::before,
+    .learning-section__chevron,
     .learning-section::details-content {
       transition: none;
     }
