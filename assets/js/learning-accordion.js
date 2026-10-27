@@ -10,7 +10,7 @@
   headings.forEach(function (heading) {
     var details = document.createElement("details");
     details.className = "learning-section";
-    details.open = true;
+    details.open = false;
 
     var summary = document.createElement("summary");
     summary.className = "learning-section__summary";
