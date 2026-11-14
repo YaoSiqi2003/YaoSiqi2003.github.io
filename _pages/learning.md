@@ -24,9 +24,7 @@ author_profile: true
 
 <p><strong>2026.11.14</strong>: Reading notes on AI agents and knowledge graph: <a href="/notes/AI Agents and Knowledge Graph.pdf">slides</a>.</p>
 
-
-
-AI Agents and Knowledge Graph.pdf
+ 
 
 <p><strong>2026.10.10</strong>: Reading notes on AI agents for phase-field simulation and multitask material science: <a href="/notes/AI Agents for Phase-Field Simulation and Multitask Materials Science.pdf">slides</a>.</p>
 
